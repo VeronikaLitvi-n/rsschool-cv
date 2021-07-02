@@ -18,9 +18,6 @@
 <p id="code2">Параграф №2</p>
 <p id="code3">Параграф №3</p>
 <h3 class="some">'заголовок третьего уровня №2'</h3>
-
-<!--<script type="text/javascript" src="my/js3.js">-->
-
 </body>
 </html>
 ```
