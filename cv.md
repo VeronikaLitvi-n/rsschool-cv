@@ -1,3 +1,5 @@
+# Curriculum Vitae
+---
 #### 1.	Weronika Fedorets
 #### 2.  +375291895422, nikafed3@gmail.com
 #### 3.  My goal is to become the top Frontend developer. At the moment, training is the main priority. I consider the presence of logic, purposefulness, perseverance and charm to be my main advantages. I have experience in medicine, which characterizes me as a hardy and responsible specialist.
