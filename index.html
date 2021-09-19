@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veronika Fedorets - CV</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <header class="main">
+        <div class="wrapper">
+            <div class="header">
+
+                <div class="header_container">
+                    <a href="#" class="header_logo">
+                    </a>
+                    <div class="header_menu menu">
+                        <div class="menu_icon">
+                            <span></span>
+                        </div>
+                        <nav class="menu_body">
+                            <ul class="menu_list">
+                                <li><a data-goto="" href="#about" class="menu_link">About Me</a></li>
+                                <li><a data-goto="" href="#skills" class="menu_link">Skills</a></li>
+                                <li><a data-goto="" href="#education" class="menu_link">Education</a></li>
+                                <li><a data-goto="" href="#languages" class="menu_link">Languages</a></li>
+                                <li><a data-goto="" href="#code" class="menu_link">Code Style</a></li>
+                                <li><a data-goto="" href="#project" class="menu_link">My Projects</a></li>
+                                <li><a data-goto="" href="#contact" class="menu_link">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+
+
+
+            <div class="top-section">
+                <img src="/img/my_photo.jpg" alt="My Photo" class="profile">
+                <h1 class="p1">VERONIKA <span>FEDORETS</span></h1>
+                <h2 class="p2">FRONT-END DEVELOPER</h2>
+            </div>
+
+            <div class="clearfix"></div>
+            <div class="containerFlex">
+                <div class="col-div-4">
+                    <div class="content-box">
+                        <h3 class="head">Contact</h3>
+                        <ul class="contacts" id="contact">
+                            <li><span><i class="fa fa-phone"></i>&nbsp;&nbsp;
+                                    +375291895422</span></li>
+                            <li><span><i class="fa fa-envelope"></i><a
+                                        href="https://www.google.com/intl/ru/gmail/about/">&nbsp;&nbsp;
+                                        nikafed3@gmail.com</a></span></li>
+                            <li><span><i class="fa fa-home"></i>&nbsp;&nbsp;
+                                    Minsk</span></li>
+                            <li><span><i class="fa fa-github"></i><a href="https://github.com/WeronikaFed">&nbsp;&nbsp;
+                                        weronikafed</a></span></li>
+                        </ul>
+                        <br />
+                        <h3 class="head" id="skills">My Skills</h3>
+                        <ul>
+                            <li class="skills"><span>HTML-5</span></li>
+                            <li class="skills"><span>CSS-3</span></li>
+                            <li class="skills"><span>JAVA SCRIPT</span></li>
+                            <li class="skills"><span>Git&GitHub</span></li>
+
+                        </ul>
+
+                        <br />
+                        <h3 class="head">My Awards</h3>
+                        <ul>
+                            <li class="awards"><span>CERTIFICATE OF COMPLETION<br>
+                                    JS/FE PRE-SCHOOL (JAVASCRIPT)</span>
+                            </li>
+                            <li class="awards"><span>
+                                    many achievements ahead :)</span>
+                            </li>
+                        </ul>
+                        <br>
+                        <h3 class="head" id="languages">Foreign languages</h3>
+                        <p class="p3">ENGLISH(A2-B1)</p>
+                        <p class="p3">GERMAN(A1)</p>
+                        <p class="p3"></p>
+
+
+                    </div>
+
+                </div>
+                <div class="line"></div>
+                <div class="col-div-8">
+                    <div class="content-box">
+                        
+                        <article class="text">
+                            <h3 class="head" id="about">About me</h3>
+                            My goal is to become the <mark>top Frontend developer</mark>. At the moment,
+                            training is the main priority. I consider the presence of logic, purposefulness,
+                            perseverance and charm to be my main advantages. I have experience in medicine, which
+                            characterizes me as a <mark>hardy and responsible specialist</mark>.</article>
+                        <br>
+                        <h3 class="head" id="education">My education</h3>
+                        <p class="text">
+                            I successfully graduated from <mark>Vitebsk Medical University</mark> in 2019
+                            <br>
+                            In the summer of 2021 I passed <mark>stage 0 RSSchool</mark>
+                        </p>
+
+                        <br>
+                        <h3 class="head" id="code">Code Style</h3>
+
+                        <pre><code class="JAVASCRIPT">
+                function deepCount(a){
+                    let sum = 0
+                    for (let i = 0; i 	&lt; a.length; i++ ){
+                      if(Array.isArray(a[i])){
+                        sum += deepCount(a[i]) + 1
+                      }else{
+                        sum += 1
+                      }
+                      
+                    }
+                    return sum
+                  }
+                </code></pre>
+                        <pre><code class="JAVASCRIPT">
+                function rgb(r, g, b){
+                    r = Math.max(r,0)
+                    g = Math.max(g,0)
+                    b = Math.max(b,0)
+                    r = Math.min(r,255)  
+                    g = Math.min(g,255)
+                    b = Math.min(b,255)
+                    function componentToHex(c) {
+                         var hex = c.toString(16);
+                        return hex.length == 1 ? "0" + hex : hex;
+                    }
+                        return  (componentToHex(r) + 
+                        componentToHex(g) + 
+                        componentToHex(b)).toUpperCase();
+                     
+                    }
+               </code></pre>
+
+                        <h3 class="head" id="project">My Projects</h3>
+                        <section class="pr1">
+                            <h4>Vertical Slider</h4>
+                            <p class="text">Vertical Slider JavaScript <br> skills: DOM and
+                                css-transform</p>
+                            <a href="https://upbeat-carson-2c3faa.netlify.app/"> <img class="img" src="/img/pr1.jpg"
+                                    alt="slider"> </a>
+                        </section>
+                        <section class="pr2">
+                            <h4>Museum</h4>
+                            <p class="text">Landing page Louvre <br> skills: export styles and graphics from Figma <br>
+
+                                work with raster and vector graphics<br>
+                                using flexbox to build grids <br>navigation interface elements <br>layout and styling of
+                                interactive interface elements (buttons, links, radio buttons)</p>
+                            <a href="https://hopeful-benz-0415f0.netlify.app/"> <img class="img" src="/img/pr2.jpg"
+                                    alt="museum"> </a>
+                        </section>
+                        <!-- <section class="pr3">
+                <h4>Custom Video Player</h4>
+                <p class="text">Custom HTML5 Video Player  <br> skills: DOM and work with video</p>
+                 <a href="https://blissful-goldberg-c7d63a.netlify.app/"> <img class ="img"  src="/img/p3.jpg" alt="player" >  </a>
+            </section> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="wrapper_footer">
+                <a class="footerLink" href="https://github.com/WeronikaFed"> github.com/WeronikaFed </a>2021
+                <a class="footerLink" href="https://rs.school/js/"> <img alt="RsSchool" src="/img/rs_school_js.svg"
+                        style="height:15px;border:0;"> </a>
+            </div>
+        </div>
+    </footer>
+    <script src="/script/script.js"></script>
+</body>
+
+</html>
